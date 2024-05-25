@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+
+.card{
+    width: 350px;
+    border: 2px solid black;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.fornecedor{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+h3{
+    margin-bottom: 8px;
+}
+
+li {
+    display: inline;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+ul{
+    margin-bottom: 24px;
+}
+
+
+.desconto{
+    color: rgb(197, 197, 197);
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.precoreal{
+    font-size: 20px;
+    color: rgb(11, 11, 255);
+    font-weight: 700;
+}
+
+button{
+
+    display: block;
+    padding: 8px 16px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    background-color: rgb(11, 11, 255);
+    color: white;
+    border: 0;
+}
+
+button:hover{
+    transition: 1s;
+    color: rgb(11, 11, 255);
+    background-color: white;
+    border: solid rgb(11, 11, 255);
+    cursor: pointer;
+}
+
